@@ -37,7 +37,7 @@ For this demo flow we will assume that the organization has the following **poli
     - Click on Start Runtime  
     - Click on Open Project  
     - Select Git -> Clone Git Repository and enter the following:  
-        Repository URL: https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python.  
+        Repository URL: https://github.com/mtulow/Citibike-ML-Snowpark.  
     - Select Yes when prompted to create a conda environment.  
     - A terminal will open and create the environment.  When it is done run `conda activate snowpark_0110` in the terminal window.  
     - When opening notebooks be sure to select the "snowpark_070" kernel.  
@@ -81,8 +81,8 @@ conda install git
 ```
 mkdir ~/Desktop/snowpark-python
 cd ~/Desktop/snowpark-python
-git clone https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python
-cd sfguide-citibike-ml-snowpark-python
+git clone https://github.com/mtulow/Citibike-ML-Snowpark.git
+cd Citibike-ML-Snowpark
 conda env create -f jupyter_env.yml
 conda activate snowpark_0110
 jupyter notebook
